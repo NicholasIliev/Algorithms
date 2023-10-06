@@ -16,11 +16,10 @@ class BubbleSort:
                 if self.arr[j] > self.arr[j + 1]:
                     self.arr[j], self.arr[j + 1] = self.arr[j + 1], self.arr[j]
 
+
     def process_arguments(self, args):
-        """
-        Process command-line arguments and extract the elements to be sorted.
-        """
-        self.arr = args[1:]  # Extract the elements (excluding the script name).
+        for arg in args[1:]:            # Extract the elements (excluding the script name).
+            self.arr.append(int(arg))  
 
     def print_sorted_array(self):
         """
