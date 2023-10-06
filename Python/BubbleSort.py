@@ -30,7 +30,7 @@ class BubbleSort:
 
 if __name__ == "__main__":
     # Create an instance of the BubbleSorter class.
-    sorter = BubbleSorter()
+    sorter = BubbleSort()
     
     # Process command-line arguments and store them in the class.
     sorter.process_arguments(sys.argv)
