@@ -27,4 +27,4 @@ class InsertionSort():
 if __name__ == "__main__":
     sorter = InsertionSort()
     sorter.process_arguments(sys.argv)
-    sorter.insertion_sort()  # Perform insertion sort on the input integers and print the sorted array.
+    sorter.insertion_sort()  # Perform insertion sort on the input integers and print the sorted array
